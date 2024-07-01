@@ -3,14 +3,9 @@ import Navbar from "../components/navbar/Navbar";
 
 export default function Layout() {
   return (
-    <div>
-      <div
-        data-theme="dark"
-        className="h-screen w-screen flex flex-col items-start justify-start"
-      >
-        <div className="w-screen">
-          <Navbar />
-        </div>
+    <div data-theme="dark" className="min-h-screen flex flex-col">
+      <Navbar />
+      <div className="flex-grow">
         <Outlet />
       </div>
     </div>
