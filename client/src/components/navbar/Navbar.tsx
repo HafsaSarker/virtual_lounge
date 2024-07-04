@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="navbar border-b border-blue-gray">
+    <div className="navbar border-b border-slate-600">
       <div className="flex-none">
         <button className="btn btn-square btn-ghost">
           <svg

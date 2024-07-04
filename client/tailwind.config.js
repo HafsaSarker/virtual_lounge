@@ -53,15 +53,6 @@ export default {
         ],
       },
     },
-    colors: {
-      "blue-gray": "#414558",
-      "hot-pink": "#ff79c6",
-      "mid-purple": "#bd93f9",
-      "warm-yellow": "#ffb86c",
-      "indigo-200": "#c7d2fe",
-      "indigo-600": "#4f46e5",
-      "slate-300": "#c7d2fe",
-    },
   },
   plugins: [require("daisyui")],
 };
