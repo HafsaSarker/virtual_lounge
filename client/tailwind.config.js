@@ -51,6 +51,7 @@ export default {
           "Microsoft YaHei",
           "Apple SD Gothic Neo",
         ],
+        play: ["Play"],
       },
     },
   },
